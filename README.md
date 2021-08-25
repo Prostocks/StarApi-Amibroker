@@ -15,7 +15,9 @@ In your afl call the method when you want to send the signal to Star
 
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 
-For eg:
+****
+## Example
+````
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -27,4 +29,4 @@ prctyp = "L";
 ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
-	
+````
