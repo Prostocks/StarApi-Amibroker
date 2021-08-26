@@ -13,6 +13,9 @@ First Time:
 Place Order:
 In your afl call the method when you want to send the signal to Star
 
+Logs:
+AMIAPI_RequestLog.txt is created in Amibroker directory. Check the same for confirmations. 
+
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 
 ****
