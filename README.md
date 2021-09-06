@@ -1,11 +1,18 @@
 # StarApi-Amibroker
 
-Note: Works with Amibroker 64 bit only.
+Note: 
 
-Instructions: 
+
+Instructions ( for 64 bit Amibroker): 
 
 1. Copy the ProStocksStar_x64.dll to Amibroker/Plugins folder
 2. Copy cpprest141_2_10.dll to Amibroker folder
+
+Instructions ( for 32 bit Amibroker): 
+
+1. Copy the ProStocksStar.dll to Amibroker/Plugins folder
+2. Copy cpprest141_2_10.dll to Amibroker folder
+
 
 First Time:
 1. Enter Login Credentials provided in the Credentials window. 
