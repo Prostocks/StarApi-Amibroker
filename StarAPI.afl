@@ -30,7 +30,7 @@ function  StarFireSignal(aiBuy,aiSell,aiShort,aiCover)
         //set the eval time    
         StaticVarSetText(uniq_name+"_lasteval", lasttime);  
         
-        prc = NumToStr(LastValue(Ref(Close,-1)));
+        prc = NumToStr(LastValue(Ref(Close,-1)), 8.2, False);
         //check for buy signal
         if(current == "None" && SignalBuy==True)
         {           
