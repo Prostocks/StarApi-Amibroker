@@ -23,6 +23,8 @@ function  StarFireSignal(aiBuy,aiSell,aiShort,aiCover)
     
     if(flag == "START" && lasteval != lasttime)
     {
+        _TRACE("Eval candle num :" + lasttime);
+        
         if(current == "")
         {
             current = "None";           
