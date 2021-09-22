@@ -28,6 +28,7 @@ NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret
 ****
 ## Example
 ````
+#Buy Limit Order
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -35,8 +36,46 @@ prc = Close;
 trgprc = "0";
 dscqty = "0";
 trantype = "B";
-prctyp = "L";
+prctyp = "LMT";
 ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 ````
+#Sell Limit Order
+exch = "NSE";
+tsym = "ACC-EQ";
+qty = "1";
+prc = Close;
+trgprc = "0";
+dscqty = "0";
+trantype = "S";
+prctyp = "LMT";
+ret = "DAY";
+remarks = "1234";
+NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);  
+````
+#Market Order
+exch = "NSE";
+tsym = "ACC-EQ";
+qty = "1";
+prc = 0;
+trgprc = "0";
+dscqty = "0";
+trantype = "B";
+prctyp = "MKT";
+ret = "DAY";
+remarks = "1234";
+NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
+````
+#StopLoss Limit Order
+exch = "NSE";
+tsym = "ACC-EQ";
+qty = "1";
+prc = Close;
+trgprc = "100.5";
+dscqty = "0";
+trantype = "B";
+prctyp = "SL-LMT";
+ret = "DAY";
+remarks = "1234";
+NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
