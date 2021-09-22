@@ -28,7 +28,7 @@ NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret
 ****
 ## Example
 ````
-#Buy Limit Order
+>Buy Limit Order
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -41,7 +41,7 @@ ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 ````
-#Sell Limit Order
+>Sell Limit Order
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -54,7 +54,7 @@ ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);  
 ````
-#Market Order
+>Market Order
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -67,7 +67,7 @@ ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 ````
-#StopLoss Limit Order
+>StopLoss Limit Order
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
