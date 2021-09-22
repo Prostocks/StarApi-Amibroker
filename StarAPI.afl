@@ -39,7 +39,7 @@ function  StarFireSignal(aiBuy,aiSell,aiShort,aiCover)
             trgprc = "0";
             dscqty = "0";
             trantype = "B";
-            prctyp = "L";
+            prctyp = "LMT";
             ret = "DAY";
             remarks = uniq_name;
                 
@@ -52,7 +52,7 @@ function  StarFireSignal(aiBuy,aiSell,aiShort,aiCover)
             trgprc = "0";
             dscqty = "0";
             trantype = "S";
-            prctyp = "L";
+            prctyp = "LMT";
             ret = "DAY";
             remarks = uniq_name;
                 
@@ -65,7 +65,7 @@ function  StarFireSignal(aiBuy,aiSell,aiShort,aiCover)
             trgprc = "0";
             dscqty = "0";
             trantype = "S";
-            prctyp = "L";
+            prctyp = "LMT";
             ret = "DAY";
             remarks = uniq_name;
                 
@@ -78,7 +78,7 @@ function  StarFireSignal(aiBuy,aiSell,aiShort,aiCover)
             trgprc = "0";
             dscqty = "0";
             trantype = "B";
-            prctyp = "L";
+            prctyp = "LMT";
             ret = "DAY";
             remarks = uniq_name;
                 
