@@ -26,9 +26,8 @@ AMIAPI_RequestLog.txt is created in Amibroker directory. Check the same for conf
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 
 ****
-## Example
+## Example Buy Limit Order
 ````
->Buy Limit Order
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -41,7 +40,9 @@ ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 ````
->Sell Limit Order
+## Example Sell Limit Order
+````
+
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -54,7 +55,9 @@ ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);  
 ````
->Market Order
+## Example Market Order
+````
+
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -67,7 +70,8 @@ ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
 ````
->StopLoss Limit Order
+## Example StopLoss Limit Order
+````
 exch = "NSE";
 tsym = "ACC-EQ";
 qty = "1";
@@ -79,3 +83,4 @@ prctyp = "SL-LMT";
 ret = "DAY";
 remarks = "1234";
 NorenPlaceOrder(exch, tsym, qty, prc, trgprc, dscqty, prd, trantype, prctyp, ret, remarks);       
+````
